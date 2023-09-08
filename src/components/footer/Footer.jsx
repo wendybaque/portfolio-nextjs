@@ -5,12 +5,13 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Link from "next/link";
 
 function Footer() {
   return (
     <footer aria-label="Pied de page" className="p-4 bg-slate-50 sm:p-6 dark:bg-gray-900 font-poppins">
       <div className="md:flex md:justify-between">
-        <a
+        <Link
           href="/"
           className="flex items-center"
           alt="Retour en haut de la page"
@@ -22,7 +23,7 @@ function Footer() {
               Wendy Baqué © 2023
             </a>
           </span>
-        </a>
+        </Link>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 
         <div className="sm:flex sm:items-center sm:justify-between">
