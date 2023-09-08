@@ -1,8 +1,9 @@
 import './globals.css'
-import { Inter, Quicksand } from 'next/font/google'
+import { Quicksand } from 'next/font/google'
+import Footer from '@/components/footer/Footer'
+import Navbar from '@/components/navbar/Navbar'
 
-const inter = Inter({ subsets: ['latin'] })
-const quicksand = Inter({ subsets: ['latin'] })
+const quicksand = Quicksand({ subsets: ['latin'] })
 
 
 export const metadata = {
@@ -13,7 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
+      LAYOUT
+      <Navbar />
       <body className={quicksand.className}>{children}</body>
+      <Footer />
     </html>
   )
 }
