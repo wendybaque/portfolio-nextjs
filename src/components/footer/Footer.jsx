@@ -9,14 +9,14 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer aria-label="Pied de page" className="p-4 bg-slate-50 sm:p-6 dark:bg-gray-900 font-poppins">
+    <footer aria-label="Pied de page" className="p-4 bg-slate-50 sm:p-6 dark:bg-gray-900">
       <div className="md:flex md:justify-between">
         <Link
           href="/"
           className="flex items-center"
           alt="Retour en haut de la page"
         >
-          <img src={Wendy} className="h-8 mr-3" alt="Wendy Baqué" />
+          {/* <img src={Wendy} className="h-8 mr-3" alt="Wendy Baqué" /> */}
           <span className="text-l text-sky-800 sm:text-center dark:text-gray-400">
             Made with ❤️ by {" "}
             <a href="https://linktr.ee/wendybaque" className="hover:underline" alt="Linktree de Wendy Baqué">
@@ -48,6 +48,16 @@ function Footer() {
             >
              <InstagramIcon />
               <span className="sr-only">Instagram page</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
+              alt="LinkedIn de Wendy Baqué"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sky-800 hover:text-gray-900 dark:hover:text-white"
+            >
+              <LinkedInIcon />
+              <span className="sr-only">LinkedIn account</span>
             </a>
             <a
               href="https://github.com/wendybaque"
