@@ -15,9 +15,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body className={quicksand.className}>
-        <Navbar />
-        {children}
-        <Footer />
+        <div className="container">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
