@@ -23,7 +23,7 @@ const Navbar = () => {
         className={styles.logo}
       >
         <Image src="/wendycarré.png" alt="Wendy Baqué, développeuse web freelance" width={100} height={100}/>
-        Wendy Baqué, développeuse web front-end en freelance
+        Wendy Baqué
       </Link>
       <div className={styles.links}>
         {links.map((link) => (
