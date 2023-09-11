@@ -1,7 +1,7 @@
 import React from "react";
-import Wendy from "../../../public/wendycarré.png";
 import Link from "next/link";
 import styles from "./navbar.module.css";
+import Image from "next/image";
 
 const links = [
   { id: 1, title: "Home", url: "/" },
@@ -22,7 +22,7 @@ const Navbar = () => {
         alt="redirection vers la page d'accueil"
         className={styles.logo}
       >
-        {/* <img src={Wendy} className="h-6 mr-3 sm:h-9" alt="Wendy Baqué" /> */}
+        <Image src="/wendycarré.png" alt="Wendy Baqué, développeuse web freelance" width={100} height={100}/>
         Wendy Baqué, développeuse web front-end en freelance
       </Link>
       <div className={styles.links}>

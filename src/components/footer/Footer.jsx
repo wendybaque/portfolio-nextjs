@@ -10,54 +10,50 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer
-      aria-label="Pied de page"
-    >
+    <footer aria-label="Pied de page" className={styles.container}>
       <div>
-      Made with ❤️ by
+        Made with ❤️ by
+        <Link href="https://linktr.ee/wendybaque" alt="Linktree de Wendy Baqué">
+          Wendy Baqué © 2023
+        </Link>
+      </div>
+      <div className={styles.social}>
         <Link
-            href="https://linktr.ee/wendybaque"
-            alt="Linktree de Wendy Baqué"
-          >
-            Wendy Baqué © 2023
-          </Link>
-
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <a
-              href="https://www.facebook.com/AntiigoneWB"
-              alt="Facebook de Wendy Baqué"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FacebookIcon />
-            </a>
-            <a
-              href="https://www.instagram.com/wendybqe/"
-              alt="Instagram de Wendy Baqué"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <InstagramIcon />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
-              alt="LinkedIn de Wendy Baqué"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <LinkedInIcon />
-            </a>
-            <a
-              href="https://github.com/wendybaque"
-              alt="Github de Wendy Baqué"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <GitHubIcon />
-            </a>
-          </div>
-        </div>
+          href="https://www.facebook.com/AntiigoneWB"
+          alt="Facebook de Wendy Baqué"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.icon}
+        >
+          <FacebookIcon />
+        </Link>
+        <Link
+          href="https://www.instagram.com/wendybqe/"
+          alt="Instagram de Wendy Baqué"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.icon}
+        >
+          <InstagramIcon />
+        </Link>
+        <Link
+          href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
+          alt="LinkedIn de Wendy Baqué"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.icon}
+        >
+          <LinkedInIcon />
+        </Link>
+        <Link
+          href="https://github.com/wendybaque"
+          alt="Github de Wendy Baqué"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.icon}
+        >
+          <GitHubIcon />
+        </Link>
       </div>
     </footer>
   );
