@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 import Wendev from "public/wendev.png";
+import { Button } from "@mui/material";
 export default function Home() {
   return (
     <main className={styles.container}>
@@ -18,11 +19,7 @@ export default function Home() {
           solutions numériques personnalisées, modernes et adaptées à vos
           besoins.
         </p>
-        <button className={styles.button}>
-          <Link href="/projects" alt="redirection vers la page des projets">
-            Voir mes projets
-          </Link>
-        </button>
+        <Button url="/projects" text="Voir mes projects" alt="Redirection vers la page des projets" aria-label="Redirection vers la page des projets"/>
       </div>
       <div className={styles.item}>
         <Image

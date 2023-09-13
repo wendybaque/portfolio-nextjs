@@ -15,3 +15,7 @@
 .icon {
     cursor: pointer;
 }
+
+.icon:hover {
+    color:#00ECF2;
+}

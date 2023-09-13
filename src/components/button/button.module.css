@@ -1,0 +1,13 @@
+.container {
+    padding: 20px;
+    background-color: #00ECF2;
+    cursor: pointer;
+    width: max-content;
+    border:none;
+    border-radius: 5px;
+    color: #ddd;
+  }
+  
+  .container:hover {
+    background-color: #009699;
+  }
