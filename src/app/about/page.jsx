@@ -23,7 +23,7 @@ const About = () => {
       </div>
       <div className={styles.textContainer}>
         <div className={styles.item}>
-          <h2 className={styles.title}>Soft Skills & more...</h2>
+          <h2 className={styles.title}>Soft Skills & more... ✍️</h2>
           <p className={styles.desc}>
             ✨ Je suis une personne rigoureuse, ce qui me permet de mener à bien
             mes projets et activités confiées de A à Z et de bien gérer mon
@@ -85,7 +85,138 @@ const About = () => {
           <Button url="" text="Télécharger mon CV" />
         </div>
       </div>
-      <div className={styles.skills}>HARD SKILLS</div>
+      <div className={styles.skills}>
+        <h2 className={styles.title}>Hard Skills 💪</h2>
+        <div>
+          <h3>Front-end</h3>
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+            alt="HTML5"
+            aria-label="HTML5"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+            alt="CSS3"
+            aria-label="CSS3"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="Javascript"
+            aria-label="Javascript"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            alt="Typescript"
+            aria-label="Typescript"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+            alt="React"
+            aria-label="React"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original-wordmark.svg"
+            alt="Angular"
+            aria-label="Angular"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
+            alt="Next"
+            aria-label="Next"
+            className={styles.imgSkills}
+          />
+        </div>
+        <div>
+          <h3>Back-end</h3>
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+            alt="Express"
+            aria-label="Express"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+            alt="Node"
+            aria-label="Node"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+            alt="MySQL"
+            aria-label="MySQL"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+            alt="Mongodb"
+            aria-label="Mongodb"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
+            alt="Firebase"
+            aria-label="Firebase"
+            className={styles.imgSkills}
+          />
+        </div>
+        <div>
+          <h3>No Code</h3>
+        </div>
+        <div>
+          <h3>Style & design</h3>
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+            alt="Tailwindcss"
+            aria-label="Tailwindcss"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
+            alt="Bootstrap"
+            aria-label="Bootstrap"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+            alt="Sass"
+            aria-label="Sass"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+            alt="Figma"
+            aria-label="Figma"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
+            alt="Canva"
+            aria-label="Canva"
+            className={styles.imgSkills}
+          />
+        </div>
+        <div>
+          <h3>Versionning</h3>
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+            alt="Git"
+            aria-label="Git"
+            className={styles.imgSkills}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+            alt="Github"
+            aria-label="Github"
+            className={styles.imgSkills}
+          />
+        </div>
+      </div>
     </div>
   );
 };
