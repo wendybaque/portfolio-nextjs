@@ -3,7 +3,6 @@ import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import Banniere from "/public/bannière.png";
-import Link from "next/link";
 import Button from "@/components/button/Button";
 
 const About = () => {
