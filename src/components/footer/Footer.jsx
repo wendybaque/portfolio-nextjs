@@ -12,8 +12,8 @@ function Footer() {
   return (
     <footer aria-label="Pied de page" className={styles.container}>
       <div>
-        Made with ❤️ by
-        <Link href="https://linktr.ee/wendybaque" alt="Linktree de Wendy Baqué">
+        Made with ❤️ by {" "}
+        <Link className={styles.icon} href="https://linktr.ee/wendybaque" alt="Linktree de Wendy Baqué">
           Wendy Baqué © 2023
         </Link>
       </div>

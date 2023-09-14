@@ -60,12 +60,13 @@ const About = () => {
             organisationnelles, de maîtriser les normes rédactionnelles et,
             surtout, d'être à l' avec le storytelling lorsque j' un projet à
             présenter aux clients et collaborateurs.
-            <Button
+            
+            <div><Button
               url="https://wendybaqueauteure.wendev.fr/"
               alt="Redirection vers mon site d'auteure de livres"
               aria-label="Redirection vers mon site d'auteure de livres"
               text="Voir mon site d'auteure"
-            />
+            /></div>
             <br />
             <br />➕ Mon petit plus ?Je suis développeuse, mais aussi
             psychologue ! Ainsi, tout naturellement, je suis attirée par l' UX
