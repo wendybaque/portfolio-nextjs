@@ -32,7 +32,7 @@ const projects = [
 const Projects = () => {
   return (
     <div className={styles.container}>
-      Projects
+      Projets
       <h1 className={styles.title}></h1>
       <div>
         {" "}
