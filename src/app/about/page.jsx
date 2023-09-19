@@ -88,7 +88,7 @@ const About = () => {
       </div>
       <div className={styles.skills}>
         <h2 className={styles.title}>Hard Skills 💪</h2>
-        <div>
+        <div className={styles.skills}>
           <h3>Front-end</h3>
           <Image
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"

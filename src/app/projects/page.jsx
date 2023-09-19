@@ -32,19 +32,20 @@ const projects = [
 const Projects = () => {
   return (
     <div className={styles.container}>
-      Projets
       <h1 className={styles.title}>Projets réalisés</h1>
       <div className={styles.cards}>
         {projects.map((project) => (
           <div key={project.id} className={styles.card}>
-            <div className={styles.imgContainer}><Image
-              className={styles.img}
-              src={project.img}
-              alt="test"
-              aria-label="test"
-              fill={true}
-            /></div>
-            
+            <div className={styles.imgContainer}>
+              <Image
+                className={styles.img}
+                src={project.img}
+                alt="test"
+                aria-label="test"
+                fill={true}
+              />
+            </div>
+
             <h2 className={styles.projectTitle}>{project.name}</h2>
             <p className={styles.projectDesc}>{project.desc}</p>
             <Button url={project.code} text="voir le code" />

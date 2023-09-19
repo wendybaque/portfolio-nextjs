@@ -15,11 +15,11 @@
   display: flex;
   border-radius: 5px;
   gap: 10px;
-  width: max-content;
-  padding: 10px;
 }
 
 .card {
+  padding: 1rem;
+  width: max-content;
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
