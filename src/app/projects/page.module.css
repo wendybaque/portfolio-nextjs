@@ -3,12 +3,12 @@
 }
 
 .title {
-    font-size: 42px;
-    margin-bottom: 50px;
-    text-align: center;
-    background: linear-gradient(to bottom, #00ecf2, #bbb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 42px;
+  margin-bottom: 50px;
+  text-align: center;
+  background: linear-gradient(to bottom, #00ecf2, #bbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .cards {
@@ -30,12 +30,12 @@
 }
 
 .projectTitle {
-    color: aqua;
-    font-size: 2em;
-    font-weight: bold;
+  color: aqua;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .projectDesc {
-font-size: 1em;
-color: black;
+  font-size: 1em;
+  color: black;
 }
