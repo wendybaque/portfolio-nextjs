@@ -1,5 +1,4 @@
 .container {
-  background-color: yellow;
 }
 
 .title {
@@ -18,7 +17,7 @@
 }
 
 .card {
-  padding: 1rem;
+  padding: 0.2rem;
   width: max-content;
   display: flex;
   flex-direction: column;
@@ -27,8 +26,9 @@
 }
 
 .img {
-  border-radius: 5px;
+    border-radius: 5px;
     object-fit: cover;
+    width: 100%;
 }
 
 .imgContainer {

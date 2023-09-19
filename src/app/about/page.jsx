@@ -147,7 +147,7 @@ const About = () => {
             className={styles.imgSkills}
           />
         </div>
-        <div>
+        <div className={styles.skills}>
           <h3>Back-end</h3>
           <Image
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
@@ -190,10 +190,10 @@ const About = () => {
             className={styles.imgSkills}
           />
         </div>
-        <div>
+        <div className={styles.skills}>
           <h3>No Code</h3>
         </div>
-        <div>
+        <div className={styles.skills}>
           <h3>Style & design</h3>
           <Image
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
@@ -236,7 +236,7 @@ const About = () => {
             className={styles.imgSkills}
           />
         </div>
-        <div>
+        <div className={styles.skills}>
           <h3>Versionning</h3>
           <Image
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
