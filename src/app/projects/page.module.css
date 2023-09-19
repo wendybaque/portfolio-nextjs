@@ -13,20 +13,19 @@
 
 .cards {
   display: flex;
+  border-radius: 5px;
+  gap: 10px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  border-radius: 5px;
-  gap: 10px;
   background-color: whitesmoke;
   box-shadow: 5px 5px 5px aqua;
 }
 
 .img {
   height: 64px;
-  width: contain;
   border-radius: 5px;
 }
 
