@@ -14,7 +14,7 @@ const Jotform = () => {
         frameborder="0"
         style={{
           minWidth: "100%",
-          height: "500px",
+          height: "600px",
           border: "none",
           borderRadius: "10px",
         }}

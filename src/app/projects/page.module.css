@@ -1,3 +1,36 @@
-.projects {
-    background-color: yellow;
+.container {
+  background-color: yellow;
+}
+
+.title {
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  gap: 10px;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px aqua;
+}
+
+.img {
+  height: 64px;
+  width: contain;
+  border-radius: 5px;
+}
+
+.projectTitle {
+    color: aqua;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.projectDesc {
+font-size: 1em;
+color: black;
 }
