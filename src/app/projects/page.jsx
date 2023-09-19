@@ -37,21 +37,21 @@ const Projects = () => {
       <div>
         {" "}
         className={styles.cards}
-        {projects.map((project) => (
+        {/* {projects.map((project) => (
           <div key={project.id} className={styles.card}>
             <Image
               className={styles.img}
               src={project.img}
-              alt=""
-              aria-label=""
+              alt="test"
+              aria-label="test"
               fill={true}
             />
             <h2 className={styles.title}>{project.title}</h2>
             <p className={styles.desc}>{project.desc}</p>
-            <Button url={code} text="voir le code" />
-            <Button url={site} text="voir le site" />
+            <Button url={project.code} text="voir le code" />
+            <Button url={project.site} text="voir le site" />
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );
