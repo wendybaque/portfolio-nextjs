@@ -34,10 +34,8 @@ const Projects = () => {
     <div className={styles.container}>
       Projets
       <h1 className={styles.title}></h1>
-      <div>
-        {" "}
-        className={styles.cards}
-        {/* {projects.map((project) => (
+      <div className={styles.cards}>
+        {projects.map((project) => (
           <div key={project.id} className={styles.card}>
             <Image
               className={styles.img}
@@ -46,12 +44,12 @@ const Projects = () => {
               aria-label="test"
               fill={true}
             />
-            <h2 className={styles.title}>{project.title}</h2>
+            <h2 className={styles.title}>{project.name}</h2>
             <p className={styles.desc}>{project.desc}</p>
             <Button url={project.code} text="voir le code" />
             <Button url={project.site} text="voir le site" />
           </div>
-        ))} */}
+        ))}
       </div>
     </div>
   );
