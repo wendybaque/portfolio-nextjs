@@ -11,24 +11,24 @@
 }
 
 .cards {
-  display: flex;
-  border-radius: 5px;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
 }
 
 .card {
   border-radius: 5px;
-  padding: 0.2rem;
-  display: flex;
-  flex-direction: column;
+  grid-area: 1 / 1 / 6 / 4;
   background-color: whitesmoke;
   box-shadow: 5px 5px 5px whitesmoke;
 }
 
 .img {
-    border-radius: 5px;
-    object-fit: cover;
-    width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .imgContainer {

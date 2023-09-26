@@ -5,7 +5,8 @@ const nextConfig = {
             "images.pexels.com",
             "pixabay.com",
             "devicons.dev",
-            "cdn.jsdelivr.net"
+            "cdn.jsdelivr.net",
+            "i.goopics.net"
         ]
     }
 }
