@@ -22,8 +22,12 @@ const Navbar = () => {
         alt="redirection vers la page d'accueil"
         className={styles.logo}
       >
-        <Image src="/wendycarré.png" alt="Wendy Baqué, développeuse web freelance" width={100} height={100}/>
-        Wendy Baqué
+        <Image
+          src="/wendycarré.png"
+          alt="Wendy Baqué, développeuse web freelance"
+          width={100}
+          height={100}
+        />
       </Link>
       <div className={styles.links}>
         {links.map((link) => (

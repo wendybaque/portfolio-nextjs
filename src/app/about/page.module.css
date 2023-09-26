@@ -47,9 +47,10 @@
 
 .skills {
     margin-top: 2rem;
+    margin-right: 2rem;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .imgSkills {
@@ -58,4 +59,13 @@
     flex-direction: row;
     padding: 5px;
     margin: 5px;
+    margin-right: 2rem;
+}
+
+.col {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
